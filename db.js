@@ -3,10 +3,10 @@
     EXPRESSJS - LIBRARY MANAGEMENT SYSTEM Project with Sequelize
 ------------------------------------------------------- */
 require("dotenv").config();
-const HOST = process.env.HOST || 'localhost';
-const DBUSERNAME = process.env.DBUSERNAME || 'Razor';
-const PASSWORD = process.env.PASSWORD || '682542';
-const DBNAME = process.env.DBNAME || 'DB_LIBRARY_MANAGEMENT';
+const HOST = process.env.HOST;
+const DBUSERNAME = process.env.DBUSERNAME;
+const PASSWORD = process.env.PASSWORD;
+const DBNAME = process.env.DBNAME;
 // MODELS:
 const { Sequelize } = require('sequelize')
 // sequelize instance oluştur:
